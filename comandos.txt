@@ -1,0 +1,15 @@
+mkdir basic_repo
+cd basic_repo
+touch index.html styles.css
+git init
+git remote add origin https://github.com/Luiguau/basic_repo.git
+git add .
+git commit -m "carga de archivos"
+git branch -M main
+git push -u origin main
+nano index.html
+nano styles.css
+git add .
+git commit -m "actualizacion de html y css"
+git branch -M main
+git push -u origin main
